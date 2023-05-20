@@ -36,3 +36,9 @@
 	$ git clone url
 	```
 	这里的 url 是仓库的下载方式中，ssh 那一种给出的地址
+8. 设置本地仓库的 ssh 上游地址
+	```shell
+	$ git remote set-url origin git@github.com:username/your-repository.git
+	```
+	
+[reference](https://gist.github.com/xirixiz/b6b0c6f4917ce17a90e00f9b60566278)
